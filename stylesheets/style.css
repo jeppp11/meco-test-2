@@ -1,0 +1,9 @@
+.body{
+    background-color: rgba(228, 238, 239, 1);
+}
+.nav-menu-bar{
+    text-decoration: none;
+    font: Arial;
+    padding: 25px;
+    background-color: rgba(22, 22, 22, 1);
+}
