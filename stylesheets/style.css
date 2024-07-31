@@ -2,15 +2,19 @@ body{
     background-color: rgba(228, 238, 239, 1);
     font-family: Arial, Helvetica, sans-serif;
 }
-.nav-bar{
+.title-bar{
     text-decoration: none;
     padding: 0.5%;
     background-color: rgba(43, 42, 48, 1);
 }
 .nav-menu-bar{
-    text-decoration: none;
+    text-decoration: rgba(228, 238, 239, 1);
     padding: 0.5%;
     background-color: rgba(22, 22, 22, 1);
+}
+#nav-menu-bar-tabs{
+    text-decoration-color: rgba(228, 238, 239, 1);
+    text-align: right;
 }
 .carousel-slide{
     padding: 25%;
