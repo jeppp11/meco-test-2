@@ -1,8 +1,10 @@
 body{
+    margin: 0%;
     background-color: rgba(228, 238, 239, 1);
     font-family: Arial, Helvetica, sans-serif;
 }
 .title-bar{
+    position: relative;
     text-decoration: none;
     padding: 0.5%;
     background-color: rgba(43, 42, 48, 1);
@@ -11,6 +13,10 @@ body{
     text-decoration: rgba(228, 238, 239, 1);
     padding: 0.5%;
     background-color: rgba(22, 22, 22, 1);
+}
+.nav-menu-bar a{
+    text-decoration-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
 }
 #nav-menu-bar-tabs{
     text-decoration-color: rgba(228, 238, 239, 1);
@@ -21,5 +27,28 @@ body{
     background-color: rgba(205, 205, 205, 1);
 }
 .circle-sec{
+    padding: 10%;
     text-align: center;
+    background-color: rgba(228, 238, 239, 1);
+}
+.circle-work{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(43, 42, 48, 1);
+    border-radius: 100px;
+}
+.circle-enroll{
+    float: right;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(43, 42, 48, 1);
+    border-radius: 100px;
+}
+.circle-book{
+    float: right;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(43, 42, 48, 1);
+    border-radius: 100px;
 }
